@@ -4,11 +4,15 @@ html {
   padding: 0;
 }
 
+html {
+  //background: url("https://b1-q.mafengwo.net/s9/M00/D6/48/wKgBs1fHmDOAFuPuABgy_gdW4GA40.jpeg") no-repeat center center fixed;
+  //background-size: cover;
+}
+
 body {
   font-family: $font-family-base;
   font-size: $font-size-base;
   color: $color-base;
-  background-color: $body-bg;
   line-height: $line-height-base;
 }
 
