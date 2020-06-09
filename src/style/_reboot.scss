@@ -5,8 +5,9 @@ html {
 }
 
 html {
-  //background: url("https://b1-q.mafengwo.net/s9/M00/D6/48/wKgBs1fHmDOAFuPuABgy_gdW4GA40.jpeg") no-repeat center center fixed;
-  //background-size: cover;
+  background: url("https://b1-q.mafengwo.net/s9/M00/D6/48/wKgBs1fHmDOAFuPuABgy_gdW4GA40.jpeg")
+    no-repeat center center fixed;
+  background-size: cover;
 }
 
 body {
@@ -14,6 +15,9 @@ body {
   font-size: $font-size-base;
   color: $color-base;
   line-height: $line-height-base;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 * {
