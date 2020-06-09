@@ -1,0 +1,6 @@
+@mixin btn-variant($color, $bg-color) {
+  color: $color;
+  background-color: $bg-color;
+  padding: $btn-padding-y $btn-padding-x;
+  border-radius: 80px;
+}

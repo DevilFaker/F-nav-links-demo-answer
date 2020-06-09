@@ -3,4 +3,12 @@
   align-items: center;
   padding: $container-padding-y $container-padding-x;
   background-color: #000000aa;
+
+  nav {
+    @extend .menu;
+
+    li {
+      @include btn-variant(black, white);
+    }
+  }
 }
